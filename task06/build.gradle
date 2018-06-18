@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    jcenter();
+}
+
+sourceSets {
+    main {
+        java.srcDirs = ['src']
+    }
+
+}
+
+allprojects {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+idea {
+    project {
+        languageLevel = JavaVersion.VERSION_1_8
+    }
+}

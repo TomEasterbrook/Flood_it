@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Flood_it</string>
+    <string name="game_over_dialog_title">Game over!</string>
+    <string name="game_over_dialog_message">Unfortunately, you are out of moves! Would you like to play again or return to the main menu?</string>
+    <string name="play_again_option">Play Again!</string>
+    <string name="return_to_main_menu_option">Return to main menu!</string>
+    <string name="menu_play_classic">Play Classic</string>
+    <string name="menu_play_custom">Play Custom</string>
+    <string name="menu_leaderboard">Leaderboard</string>
+    <string name="menu_how_to_play">How to Play</string>
+    <string name="grid_size_label">Grid Size:</string>
+    <string name="number_of_colours_label">Number of Colours:</string>
+    <string name="custom_settings_play_game">Play Game</string>
+    <string-array name="grid_sizes">
+        <item>6x6</item>
+        <item>10x10</item>
+        <item>14x14</item>
+        <item>18x18</item>
+        <item>22x22</item>
+        <item>26x26</item>
+
+    </string-array>
+    <string name="game_with_no_high_score_message">Congratulations! You have successfully managed to fill the square, however, you didn\'t achieve a high score this time. What would you like to do next?</string>
+    <string name="game_win_dialog_title">You Win!</string>
+    <string name="title_activity_leaderboard">LeaderboardActivity</string>
+    <string name="about_the_app">This app was produced by Tom Easterbrook for the Application Programming unit at Bournemouth University.\n \n
+Please report any issues to s4900519@bournemouth.ac.uk\n \n
+        
+The sound effects used in this game were produced by  Robinhood76 and can be found on https://freesound.org/people/Robinhood76/sounds/335188/ \n \n
+
+Version 1.0
+</string>
+    <string name="how_to_play">You will initially be presented with a grid which will be filled with tiles of random colours. The aim of the game is to fill the grid one solid colour. To do this you will need to press on different coloured tiles, this in turn, will fill each neighbour square that are the same colour the colour you selected until a square is reached that is a different colour then this process will stop.  You will have a set number of moves in order to fill the square the single solid colour</string>
+    <string name="header_descrption">Logo</string>
+    <string name="about_img">About the app</string>
+</resources>
